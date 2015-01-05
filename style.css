@@ -1,0 +1,72 @@
+/* line 1, C:/Users/Domagoj/Documents/My Software Projects/GitHub/dstrekelj.github.io/design/www/style.sass */
+body {
+  margin: 2em;
+  background: linear-gradient(-20deg, #348F50 0%, #56B4D3 60%);
+  font-family: 'Asap', sans-serif;
+  font-size: 12pt;
+  font-weight: 400;
+  line-height: 1.5em; }
+
+/* line 11, C:/Users/Domagoj/Documents/My Software Projects/GitHub/dstrekelj.github.io/design/www/style.sass */
+h1 {
+  font-family: 'Asap'; }
+
+/* line 11, C:/Users/Domagoj/Documents/My Software Projects/GitHub/dstrekelj.github.io/design/www/style.sass */
+h2 {
+  font-family: 'Asap'; }
+
+/* line 11, C:/Users/Domagoj/Documents/My Software Projects/GitHub/dstrekelj.github.io/design/www/style.sass */
+h3 {
+  font-family: 'Asap'; }
+
+/* line 13, C:/Users/Domagoj/Documents/My Software Projects/GitHub/dstrekelj.github.io/design/www/style.sass */
+a {
+  text-decoration: none;
+  color: #56b4d3; }
+
+/* line 17, C:/Users/Domagoj/Documents/My Software Projects/GitHub/dstrekelj.github.io/design/www/style.sass */
+.container {
+  display: flex;
+  flex-direction: row; }
+  /* line 20, C:/Users/Domagoj/Documents/My Software Projects/GitHub/dstrekelj.github.io/design/www/style.sass */
+  .container .column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    padding: 1.5em; }
+  /* line 26, C:/Users/Domagoj/Documents/My Software Projects/GitHub/dstrekelj.github.io/design/www/style.sass */
+  .container .sidebar {
+    flex: 0;
+    min-width: 300px;
+    border-right: 1px solid #ccc; }
+    /* line 30, C:/Users/Domagoj/Documents/My Software Projects/GitHub/dstrekelj.github.io/design/www/style.sass */
+    .container .sidebar h1 {
+      font-family: 'Asap', sans-serif;
+      font-weight: 700;
+      font-size: 3em; }
+    /* line 35, C:/Users/Domagoj/Documents/My Software Projects/GitHub/dstrekelj.github.io/design/www/style.sass */
+    .container .sidebar .box {
+      text-align: center;
+      margin: 0 1em; }
+    /* line 38, C:/Users/Domagoj/Documents/My Software Projects/GitHub/dstrekelj.github.io/design/www/style.sass */
+    .container .sidebar .image {
+      background-image: url("assets/me.jpg");
+      background-position: 35% 0%;
+      height: 200px;
+      width: 200px;
+      border: 4px solid #000;
+      border-radius: 200px;
+      margin-top: 1em; }
+  /* line 47, C:/Users/Domagoj/Documents/My Software Projects/GitHub/dstrekelj.github.io/design/www/style.sass */
+  .container .content {
+    width: 800px;
+    min-width: 300px;
+    flex-shrink: 1;
+    flex-grow: 0; }
+    /* line 52, C:/Users/Domagoj/Documents/My Software Projects/GitHub/dstrekelj.github.io/design/www/style.sass */
+    .container .content .box {
+      text-align: justify;
+      margin: 0 1em; }
+
+/*# sourceMappingURL=style.css.map */
