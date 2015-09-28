@@ -1,4 +1,3 @@
-dstrekelj.github.io
-===================
+# dstrekelj.github.io
 
-My personal page.
+Welcome to my personal page!
