@@ -34,6 +34,7 @@ div.aside {
   font-size: 10pt;
   position: fixed;
   border-right: 8px solid #3D4270;
+  overflow-y: auto;
 }
 
 div.aside h2 {
@@ -47,7 +48,7 @@ div.main {
 
 div#articles {
   overflow-y: auto;
-  height: 500px;
+  max-height: 500px;
 }
 
 /** USER **/
