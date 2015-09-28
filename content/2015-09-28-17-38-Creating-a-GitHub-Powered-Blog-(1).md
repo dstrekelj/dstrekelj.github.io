@@ -19,7 +19,7 @@ The content repository will have a simple structure - one directory will store a
 
 With the API URLs in place, the **second step** is to call upon them to request the required data. Haxe can handle HTTP requests consistently across platforms with use of the [haxe.Http][6] class. There's not much else to this step.
 
-The **final step** is to deal with the received data. API responses should be formatted before being displayed on the site - foing this manually would be a bit cumbersome. Fortunately, Haxe has a [built-in template system][7] - and it's not too shabby! The template system can be leveraged to create views for API response data. These views can then be _injected_ in the base site template.
+The **final step** is to deal with the received data. API responses should be formatted before being displayed on the site - doing this manually would be a bit cumbersome. Fortunately, Haxe has a [built-in template system][7]! The template system can be leveraged to create views for API response data. These views can then be _injected_ in the base site template.
 
 ## Summary
 
