@@ -44,3 +44,9 @@ Quotes look like this:
 Images, like this:
 
 ![A dog I found on Google image search](http://www.butlercountyhs.org/Graphics/Dogs/ButlerHumaneSociety3.png)
+
+Here's an embedded iframe:
+
+<iframe src="http://try.haxe.org/embed/90DA4" width="100%" height="300" frameborder="no" allowfullscreen>
+    <a href="http://try.haxe.org/#90DA4">Try Haxe !</a>
+</iframe>
