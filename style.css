@@ -99,10 +99,11 @@ div#content h1, h2, h3, h4 {
 }
 
 div#content pre {
+  color: #fff;
+  background: #3d4270;
   font-size: 10pt;
-  padding-left: 14pt;
-  margin-left: 14pt;
-  border-left: 4px solid #8DA9CD;
+  padding: 1em;
+  border-left: 1em solid #8da9cd;
 }
 
 div#content blockquote {
