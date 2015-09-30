@@ -1,8 +1,8 @@
 # Creating a GitHub Powered Blog (1 / 3)
 
-In this series of articles I'll explain how to create a GitHub-powered single-page blog such as this one - using [Haxe][1]!
+_In this series of articles I'll explain how to create a GitHub-powered single-page blog such as this one - using [Haxe][1]!_
 
-This entry deals with the planning process and project setup.
+_This entry deals with the planning process and project setup._
 
 ## Planning
 
