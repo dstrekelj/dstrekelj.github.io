@@ -77,44 +77,46 @@ div#articles ul {
 
 /** CONTENT **/
 
-div#content {
+div#article {
   background: #fff;
   padding: 2em;
 }
 @media(min-width: 1000px) {
-  div#content {
+  div#article {
     margin-left: 2em;
     width: 600px;
   }
 }
 
-div#content .timestamp {
+div#article .timestamp {
   font-size: 10pt;
   font-weight: bold;
   text-align: right;
 }
 
-div#content h1, h2, h3, h4 {
+div#article h1, h2, h3, h4 {
   color: #3D4270;
   font-family: "Nunito", sans-serif;
 }
 
-div#content pre {
+div#article pre {
   color: #fff;
   background: #3d4270;
   font-size: 10pt;
   padding: 1em;
   border-left: 1em solid #8da9cd;
+  overflow-x: auto;
+  margin: 2em 0;
 }
 
-div#content blockquote {
+div#article blockquote {
   background: #8DA9CD;
   color: #fff;
   padding: .5em 1em;
   font-style: italic;
 }
 
-div#content img {
+div#article img {
   display: block;
   margin: 0 auto;
 }
