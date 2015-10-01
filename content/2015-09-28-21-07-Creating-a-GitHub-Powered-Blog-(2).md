@@ -1,6 +1,6 @@
 # Creating a GitHub Powered Blog (2 / 3)
 
-_In this series of articles I'll explain how to create a GitHub-powered single-page blog such as this one - using [Haxe][1]!_
+_In this series of articles I'll explain how to create a GitHub-powered single-page blog such as this one - using [Haxe][1]! The repository is available [here](https://github.com/dstrekelj/gitblog)._
 
 _This entry deals with creating a basic framework to handle routing of our single-page blog. Some terminology relates to the [Model-View-Controller pattern][2]. To those of you unfamiliar with MVC, I recommend reading up on it._
 
