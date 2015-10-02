@@ -211,7 +211,7 @@ I'll refer to the templates by the resource name I've given them: UserTemplate, 
 The user view template creates a short user description from model data.
 
 ```html
-<!--templates/user.mtt-->
+<!- templates/user.mtt ->
 <img src="::user.avatar::"/>
 <p>I am <span>::user.name::</span>, also known as <span>::user.login::</span>. I am a native of <span>::user.location::</span>. I have worked on many GitHub repositories - <span>::user.repos::</span> so far.</p>
 <p>Leave a message at <span>::user.email::</span>, or visit my <a href="::user.url::">GitHub page</a>.</p>
@@ -222,7 +222,7 @@ The user view template creates a short user description from model data.
 The articles view template creates an unordered list of articles in the response received from the GitHub API. Note the iteration.
 
 ```html
-<!--templates/articles.mtt-->
+<!- templates/articles.mtt ->
 <ul>
 ::foreach articles::
   <li><a href="#/contents/::__current__.path::">::__current__.title::</a><br/><span class="timestamp">::__current__.timestamp::</span></li>
@@ -237,7 +237,7 @@ The article view template displays the article. Note the omission of HTML tags a
 These articles will be written in [Markdown][8], but this is not a requirement. What is important is that there exists an awareness of what is _input_, and what is _output_.
 
 ```html
-<!--templates/article.mtt-->
+<!- templates/article.mtt ->
 <div class="timestamp">Written on ::article.timestamp::</div>
 ::article.body::
 ```
@@ -473,8 +473,8 @@ Running `haxe build.hxml` from the project folder will result in the JavaScript 
 
 To test the output, it's necessary to create an HTML index page to include the script in. This page should also have the expected parent elements for the views in place as well. For example:
 
-```
-<!--bin/index.html-->
+```html
+<!- bin/index.html ->
 <html>
     <head>
         <title>My GitHub Powered Blog!</title>
