@@ -341,6 +341,9 @@ frank_App.prototype = {
 		this.routes.push(route);
 		return this;
 	}
+	,run: function() {
+		this.router();
+	}
 	,router: function(event) {
 		var hash;
 		var _this = window.location.hash;
@@ -517,7 +520,7 @@ gitblog_Connection.prototype = $extend(haxe_Http.prototype,{
 	,__class__: gitblog_Connection
 });
 var gitblog_GitBlog = function() {
-	new frank_App().route({ path : new EReg("^/$",""), controller : new gitblog_controllers_HomeController()}).route({ path : new EReg("^/contents/(.*)$",""), controller : new gitblog_controllers_ContentsController()});
+	new frank_App().route({ path : new EReg("^/$",""), controller : new gitblog_controllers_HomeController()}).route({ path : new EReg("^/contents/(.*)$",""), controller : new gitblog_controllers_ContentsController()}).run();
 };
 gitblog_GitBlog.__name__ = true;
 gitblog_GitBlog.main = function() {
