@@ -551,7 +551,7 @@ var gitblog_controllers_HomeController = function() {
 	var userView = new gitblog_views_UserView();
 	userApi.onSuccess(function(Data) {
 		var userData = JSON.parse(Data);
-		var userModel = new gitblog_models_UserModel({ avatar : userData.avatar_url, name : userData.name, email : userData.email, login : userData.login, location : userData.location, repos : userData.public_repos, url : userData.url});
+		var userModel = new gitblog_models_UserModel({ avatar : userData.avatar_url, name : userData.name, email : userData.email, login : userData.login, location : userData.location, repos : userData.public_repos, url : userData.html_url});
 		userView.update(userModel);
 	}).get();
 	var articlesApi = new gitblog_Connection("https://api.github.com/repos/dstrekelj/dstrekelj.github.io/contents/content");
